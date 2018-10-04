@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stoics", "stoics\stoics.csproj", "{E57746DD-1F9A-433E-960B-23B56E6DBA65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E57746DD-1F9A-433E-960B-23B56E6DBA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57746DD-1F9A-433E-960B-23B56E6DBA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57746DD-1F9A-433E-960B-23B56E6DBA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57746DD-1F9A-433E-960B-23B56E6DBA65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DDF1C96-2324-4472-8319-017B5AC92D73}
+	EndGlobalSection
+EndGlobal
