@@ -7,8 +7,12 @@ namespace stoics.Models
 {
     public class Preferences
     {
+        public Preferences(ApplicationUser applicationUser)
+        {
+            User = applicationUser;
+        }
+
         public int Id { get; set; }
         public ApplicationUser User { get; set; }
-        public PrivacyLevel PrivacyLevel { get; set; }
     }
 }

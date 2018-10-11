@@ -15,7 +15,7 @@ namespace stoics.Interfaces
         bool IsPublic { get; set; }
         bool IsDraft { get; set; }
         string Content { get; set; }
-        PrivacyLevel privacyLevel { get; set; }
+        PrivacyLevel PostPrivacyLevel { get; set; }
         //to deal with flagged posts
         bool IsDisplayed { get; set; }
     }

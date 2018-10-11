@@ -1,12 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace stoics.Models
 {
     public class PrivateMessage
     {
+        public PrivateMessage(int authorId, int recipientId, ApplicationUser owner, string content)
+        {
+            AuthorId = authorId;
+            RecipientId = recipientId;
+            Owner = owner;
+            Created = DateTime.Now;
+            IsRead = false;
+            IsTrashed = false;
+        }
+
         public int Id { get; set; }
         public int AuthorId { get; set; }
         public int RecipientId { get; set; }

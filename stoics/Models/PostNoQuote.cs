@@ -21,7 +21,7 @@ namespace stoics.Models
         public bool IsPublic { get; set; }
         public bool IsDraft { get; set; }
         public string Content { get; set; }
-        public PrivacyLevel privacyLevel { get; set; }
+        public PrivacyLevel PostPrivacyLevel { get; set; }
         //to deal with flagged posts
         public bool IsDisplayed { get; set; }
     }
